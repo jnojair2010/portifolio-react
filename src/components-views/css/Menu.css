@@ -1,0 +1,35 @@
+@media screen and (max-width: 3500px){
+    .div-of-nav{
+        width: 100%;
+        height: 100px;
+        background-color: #213435;
+    }
+    nav{
+        width: 1000px;
+        height: 50px;
+        float: inline-end;
+        margin-top: 20px;
+        margin-right: 15px;
+        background-color: none;
+    }
+    ol{
+        /*background-color: black;*/
+        width: 100%;
+    }
+    li{
+        width: 175px;
+        height: 25px;
+        list-style: none;
+        display: inline-block;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+    }
+    li:hover{
+        border: 1px solid aliceblue;
+        box-shadow: 1px 1px 8px 1px #ffffff;
+    }
+}
