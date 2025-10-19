@@ -1,13 +1,14 @@
 
 import './App.css'
-import Menu from './components-views/menu'
+import ViewHeaderDev from './components-views/ViewHeaderDev'
+
 
 function App() {
 
 
   return (
     <div className='body-app'>
-      <Menu />
+      <ViewHeaderDev />
 
     </div>
   )

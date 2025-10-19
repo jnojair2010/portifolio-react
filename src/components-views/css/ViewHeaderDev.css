@@ -1,0 +1,48 @@
+@media screen and (max-width: 3500px){
+    .viewHeaderdev{
+        width: 100%;
+        height: 100vh;
+         
+        & #personal{
+            width: 100%;
+            height: 600px;
+            margin-top: 2.5%;
+            float:left;
+             background-color: rgb(12, 12, 12);
+
+             & #personal-information{
+                width: 800px;
+                height: 450px;
+                background-color: none;
+                border: solid 1px white;
+                float: left;
+                margin-left: 30%;
+                margin-top: 8%;
+                box-shadow: 1px 1px 15px rgb(181, 181, 181);
+
+                & #infor-foto{
+                    width: 100%;
+                    height: 400px;
+                    background-color: none;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 1px;
+
+                    & #foto{
+                        height: 400px;
+                        background-color: aliceblue;
+                    }
+                    & #information{
+                          height: 400px;
+                          background-color: azure;
+                    }
+                }
+                & #social-media{
+                     width: 100%;
+                    height: 50px;
+                    background-color: brown;
+                }
+             }
+        }
+    }
+}
